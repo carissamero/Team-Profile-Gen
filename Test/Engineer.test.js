@@ -1,28 +1,28 @@
-const Engineer = require("../lib/Engineer.js");
+const Engineer = require("../Lib/Engineer.test.js.js.js");
 
 describe("Engineer", () => {
     describe("Initialization", () => {
         it("should create an object with name, id, email, school", () => {
-            const engineer = new Engineer("Hank", 765, "hank@company.com", "hank");
+            const engineer = new Engineer("Ethan", 456, "ethan@company.com", "Ethan");
             expect(engineer).toEqual({
-                name: "Hank",
-                id: 765,
-                email: "hank@company.com",
-                github: "hank",
+                name: "Ethan",
+                id: 456,
+                email: "ethan@company.com",
+                github: "Ethan",
             });
         });
     });
 
     describe("getGithub", () => {
         it("should return correct value of the engineer's GitHub profile name", () => {
-            const engineer = new Engineer("Hank", 765, "hank@company.com", "hank");
-            expect(engineer.getGithub()).toEqual("Hank");
+            const engineer = new Engineer("Ethan", 456, "ethan@company.com", "Ethan");
+            expect(engineer.getGithub()).toEqual("Ethan");
         });
     });
 
     describe("getRole", () => {
         it("should return 'Engineer' as the role", () => {
-            const engineer = new Engineer("Hank", 765, "hank@company.com", "hank");
+            const engineer = new Engineer("Ethan", 456, "ethan@company.com", "Ethan");
             expect(engineer.getRole()).toEqual("Engineer");
         });
     });
