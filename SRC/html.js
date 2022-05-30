@@ -1,7 +1,7 @@
-const Employee = require(`../Lib/Employee.test.js.js.js`);
-const Manager = require("../Lib/Manager.test.js.js.js");
-const Intern = require("../Lib/Intern.test.js.js.js");
-const Engineer = require("../Lib/Engineer.test.js.js.js");
+const Employee = require("../Lib/Employee.js");
+const Manager = require("../Lib/Manager.js");
+const Intern = require("../Lib/Intern.js");
+const Engineer = require("../Lib/Engineer.js");
 
 function createManagerCard(manager) {
     return `<div class="card m-3" style="width: 18rem;">
