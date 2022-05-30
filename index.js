@@ -2,10 +2,10 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const createHTML = require("./Src/html.js");
 
-const Employee = require("../Test/Employee.test.js");
-const Manager = require("../Test/Manager.test.js");
-const Intern = require("../Test/Intern.test.js");
-const Engineer = require("../Test/Engineer.test.js");
+const Employee = require("./Test/Employee.test.js");
+const Manager = require("./Test/Manager.test.js");
+const Intern = require("./Test/Intern.test.js");
+const Engineer = require("./Test/Engineer.test.js");
 
 const staff = [];
 
