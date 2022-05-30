@@ -1,11 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const createHTML = require("./Src/html.js");
+const createHTML = require("../Src/html.js");
 
-const Employee = require("./Lib/Employee.test.js.js.js");
-const Manager = require("./Lib/Manager.test.js.js.js");
-const Intern = require("./Lib/Intern.test.js.js.js");
-const Engineer = require("./Lib/Engineer.test.js.js.js");
+const Employee = require("../Test/Employee.test.js");
+const Manager = require("../Test/Manager.test.js");
+const Intern = require("../Test/Intern.test.js");
+const Engineer = require("../Test/Engineer.test.js");
 
 const staff = [];
 
