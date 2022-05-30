@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const createHTML = require("../Src/html.js");
+const createHTML = require("./Src/html.js");
 
 const Employee = require("../Test/Employee.test.js");
 const Manager = require("../Test/Manager.test.js");
