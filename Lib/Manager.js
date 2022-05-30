@@ -1,4 +1,4 @@
-const Employee = require("/Users/carissa/Desktop/Team-Profile-Gen/Test/Manager.test.js");
+const Employee = require("Lib/Employee.js");
 
 class Manager extends Employee {
     constructor(name, id, email, officeNumber) {
