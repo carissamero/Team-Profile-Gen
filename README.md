@@ -1,6 +1,8 @@
 # Team-Profile-Gen
 
-VIDEO LINK: https://drive.google.com/file/d/1eJtRnO7crsm8Zvfiv_ffNjWzOk5jj3FA/view
+VIDEO LINKS:
+https://drive.google.com/file/d/1eJtRnO7crsm8Zvfiv_ffNjWzOk5jj3FA/view
+https://drive.google.com/file/d/10DY7SgBWhGl0AvZIgVqL6BoNifrY0wMK/view
 
 Your Task
 Your challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, you’ll also write unit tests for each part of your code and ensure that it passes all of them.
